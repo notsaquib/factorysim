@@ -1,0 +1,6 @@
+
+
+
+TIMESTAMP = None
+LOGGER_PATH_CANDIDATE = None
+ID_STRING = None

@@ -1,0 +1,62 @@
+---
+machines:
+  - name: "Milling"
+    specifications:
+      type: "Subtractive Manufacturing"
+      electrical:
+        phase: 3
+        voltage: 230
+        current: 12
+        power: 420
+        renewable:
+          support: "partial"
+          range: 50
+        flexibility:
+          support: "full"
+          range: 100
+          ready-state: "none"
+  - name: "Drilling"
+    specifications:
+      type: "Subtractive Manufacturing"
+      electrical:
+        phase: 3
+        voltage: 230
+        current: 10
+        power: 320
+        renewable:
+          support: "full"
+          range: 100
+        flexibility:
+          support: "no"
+          range: 0
+          ready-state: "none"
+  - name: "Turning"
+    specifications:
+      type: "Subtractive Manufacturing"
+      electrical:
+        phase: 3
+        voltage: 230
+        current: 8
+        power: 220
+        renewable:
+          support: "no"
+          range: 00
+        flexibility:
+          support: "partial"
+          range: 25
+          ready-state: "none"
+  - name: "Machining"
+    specifications:
+      type: "Subtractive Manufacturing"
+      electrical:
+        phase: 3
+        voltage: 230
+        current: 12
+        power: 420
+        renewable:
+          support: "partial"
+          range: 50
+        flexibility:
+          support: "full"
+          range: 100
+          ready-state: "none"

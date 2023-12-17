@@ -1,0 +1,16 @@
+{
+  "general": {
+    "model": 1,
+    "render_xml": false,
+    "log_dir": ".",
+    "write_logs": true
+  },
+  "hyperparam": {
+    "gamma": 0.90,
+    "epsilon": 0.4,
+    "min_epsilon": 0.01,
+    "epsilon_decay": 0.95,
+    "episodes": 1000,
+    "batch_size": 2
+  }
+}

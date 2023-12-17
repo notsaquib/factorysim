@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Database Name= "Product Database">
+    {% for source_data_key, source_data_value in source_data.items() %}
+        {% for each_data_item in source_data_value %}
+            <Product Name= "{{ each_data_item["name"]}}">
+                  {% for each_part_item in each_data_item["parts"] %}
+                  <Part Name= "{{ each_part_item["name"] }}">
+                    {% for each_option_item in each_part_item["options"] %}
+                    <Option>
+                        <ID>{{ each_option_item["id"] }}</ID>
+                        <Name>{{ each_option_item["name"] }}</Name>
+                        <Description>{{ each_option_item["description"] }}</Description>
+                    </Option>
+                    {% endfor %}
+                  </Part>
+                  {% endfor %}
+            </Product>
+        {% endfor %}
+    {% endfor %}
+</Database>

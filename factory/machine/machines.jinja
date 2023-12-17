@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Database Name= "Machine Database">
+    {% for source_data_key, source_data_value in source_data.items() %}
+        {% for each_machine_item in source_data_value %}
+            <Machine Name= "{{ each_machine_item["name"]}}">
+                <Specifications>
+                    <Type>{{ each_machine_item["specifications"]["type"] }} </Type>
+                    <Electrical>
+                        {% for each_electrical_key, each_electrical_value in each_machine_item["specifications"]["electrical"].items() %}
+                            {% if each_electrical_key == "renewable" %}
+                                <{{ each_electrical_key | capitalize}}>
+                                    {% for each_renewable_key, each_renewable_value in each_machine_item["specifications"]["electrical"][each_electrical_key].items() %}
+                                        <{{ each_renewable_key | capitalize}}>
+                                        {{ each_machine_item["specifications"]["electrical"][each_electrical_key][each_renewable_key] }}
+                                        </{{ each_renewable_key | capitalize}}>
+                                    {% endfor %}
+                                </{{ each_electrical_key | capitalize}}>
+                            {% elif each_electrical_key == "flexibility" %}
+                                <{{ each_electrical_key | capitalize}}>
+                                    {% for each_flexible_key, each_flexible_value in each_machine_item["specifications"]["electrical"][each_electrical_key].items() %}
+                                        <{{ each_flexible_key | capitalize}}>
+                                        {{ each_machine_item["specifications"]["electrical"][each_electrical_key][each_flexible_key] }}
+                                        </{{ each_flexible_key | capitalize}}>
+                                    {% endfor %}
+                                </{{ each_electrical_key | capitalize}}>
+                            {% else %}
+                                <{{ each_electrical_key | capitalize}}>
+                                    {{ each_machine_item["specifications"]["electrical"][each_electrical_key] }}
+                                </{{ each_electrical_key | capitalize}}>
+                            {% endif %}
+                        {% endfor %}
+                    </Electrical>
+                </Specifications>
+            </Machine>
+        {% endfor %}
+    {% endfor %}
+</Database>

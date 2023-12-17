@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Database Name= "Machine Database">
+    
+        
+            <Machine Name= "Milling">
+                <Specifications>
+                    <Type>Subtractive Manufacturing </Type>
+                    <Electrical>
+                        
+                            
+                                <Phase>
+                                    3
+                                </Phase>
+                            
+                        
+                            
+                                <Voltage>
+                                    230
+                                </Voltage>
+                            
+                        
+                            
+                                <Current>
+                                    12
+                                </Current>
+                            
+                        
+                            
+                                <Power>
+                                    420
+                                </Power>
+                            
+                        
+                            
+                                <Renewable>
+                                    
+                                        <Support>
+                                        partial
+                                        </Support>
+                                    
+                                        <Range>
+                                        50
+                                        </Range>
+                                    
+                                </Renewable>
+                            
+                        
+                            
+                                <Flexibility>
+                                    
+                                        <Support>
+                                        full
+                                        </Support>
+                                    
+                                        <Range>
+                                        100
+                                        </Range>
+                                    
+                                        <Ready-state>
+                                        none
+                                        </Ready-state>
+                                    
+                                </Flexibility>
+                            
+                        
+                    </Electrical>
+                </Specifications>
+            </Machine>
+        
+            <Machine Name= "Drilling">
+                <Specifications>
+                    <Type>Subtractive Manufacturing </Type>
+                    <Electrical>
+                        
+                            
+                                <Phase>
+                                    3
+                                </Phase>
+                            
+                        
+                            
+                                <Voltage>
+                                    230
+                                </Voltage>
+                            
+                        
+                            
+                                <Current>
+                                    10
+                                </Current>
+                            
+                        
+                            
+                                <Power>
+                                    320
+                                </Power>
+                            
+                        
+                            
+                                <Renewable>
+                                    
+                                        <Support>
+                                        full
+                                        </Support>
+                                    
+                                        <Range>
+                                        100
+                                        </Range>
+                                    
+                                </Renewable>
+                            
+                        
+                            
+                                <Flexibility>
+                                    
+                                        <Support>
+                                        no
+                                        </Support>
+                                    
+                                        <Range>
+                                        0
+                                        </Range>
+                                    
+                                        <Ready-state>
+                                        none
+                                        </Ready-state>
+                                    
+                                </Flexibility>
+                            
+                        
+                    </Electrical>
+                </Specifications>
+            </Machine>
+        
+            <Machine Name= "Turning">
+                <Specifications>
+                    <Type>Subtractive Manufacturing </Type>
+                    <Electrical>
+                        
+                            
+                                <Phase>
+                                    3
+                                </Phase>
+                            
+                        
+                            
+                                <Voltage>
+                                    230
+                                </Voltage>
+                            
+                        
+                            
+                                <Current>
+                                    8
+                                </Current>
+                            
+                        
+                            
+                                <Power>
+                                    220
+                                </Power>
+                            
+                        
+                            
+                                <Renewable>
+                                    
+                                        <Support>
+                                        no
+                                        </Support>
+                                    
+                                        <Range>
+                                        0
+                                        </Range>
+                                    
+                                </Renewable>
+                            
+                        
+                            
+                                <Flexibility>
+                                    
+                                        <Support>
+                                        partial
+                                        </Support>
+                                    
+                                        <Range>
+                                        25
+                                        </Range>
+                                    
+                                        <Ready-state>
+                                        none
+                                        </Ready-state>
+                                    
+                                </Flexibility>
+                            
+                        
+                    </Electrical>
+                </Specifications>
+            </Machine>
+        
+            <Machine Name= "Machining">
+                <Specifications>
+                    <Type>Subtractive Manufacturing </Type>
+                    <Electrical>
+                        
+                            
+                                <Phase>
+                                    3
+                                </Phase>
+                            
+                        
+                            
+                                <Voltage>
+                                    230
+                                </Voltage>
+                            
+                        
+                            
+                                <Current>
+                                    12
+                                </Current>
+                            
+                        
+                            
+                                <Power>
+                                    420
+                                </Power>
+                            
+                        
+                            
+                                <Renewable>
+                                    
+                                        <Support>
+                                        partial
+                                        </Support>
+                                    
+                                        <Range>
+                                        50
+                                        </Range>
+                                    
+                                </Renewable>
+                            
+                        
+                            
+                                <Flexibility>
+                                    
+                                        <Support>
+                                        full
+                                        </Support>
+                                    
+                                        <Range>
+                                        100
+                                        </Range>
+                                    
+                                        <Ready-state>
+                                        none
+                                        </Ready-state>
+                                    
+                                </Flexibility>
+                            
+                        
+                    </Electrical>
+                </Specifications>
+            </Machine>
+        
+    
+</Database>

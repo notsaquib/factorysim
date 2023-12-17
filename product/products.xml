@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Database Name= "Product Database">
+    
+        
+            <Product Name= "Helicopter">
+                  
+                  <Part Name= "Motor">
+                    
+                    <Option>
+                        <ID>a1</ID>
+                        <Name>M1</Name>
+                        <Description>Milling 15 Drilling 20 Turning 15 Machining 10</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>a2</ID>
+                        <Name>M2</Name>
+                        <Description>Milling 30 Drilling 30 Turning 20 Machining 15</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>a3</ID>
+                        <Name>M3</Name>
+                        <Description>Milling 45 Drilling 40 Turning 25 Machining 20</Description>
+                    </Option>
+                    
+                  </Part>
+                  
+                  <Part Name= "Housing">
+                    
+                    <Option>
+                        <ID>a1</ID>
+                        <Name>M1</Name>
+                        <Description>Turning 15 Machining 20 Milling 15 Drilling 20</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>a2</ID>
+                        <Name>M2</Name>
+                        <Description>Turning 30 Machining 25 Milling 25 Drilling 25</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>a3</ID>
+                        <Name>M3</Name>
+                        <Description>Turning 45 Machining 30 Milling 35 Drilling 30</Description>
+                    </Option>
+                    
+                  </Part>
+                  
+            </Product>
+        
+            <Product Name= "Quadcopter">
+                  
+                  <Part Name= "Blade">
+                    
+                    <Option>
+                        <ID>b1</ID>
+                        <Name>M1</Name>
+                        <Description>Milling 15 Drilling 20 Turning 15 Machining 10</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>b2</ID>
+                        <Name>M2</Name>
+                        <Description>Milling 30 Drilling 30 Turning 20 Machining 15</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>b3</ID>
+                        <Name>M3</Name>
+                        <Description>Milling 45 Drilling 40 Turning 25 Machining 20</Description>
+                    </Option>
+                    
+                  </Part>
+                  
+                  <Part Name= "Frame">
+                    
+                    <Option>
+                        <ID>f1</ID>
+                        <Name>M1</Name>
+                        <Description>Turning 15 Machining 20 Milling 15 Drilling 20</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>f2</ID>
+                        <Name>M2</Name>
+                        <Description>Turning 30 Machining 25 Milling 25 Drilling 25</Description>
+                    </Option>
+                    
+                    <Option>
+                        <ID>f3</ID>
+                        <Name>M3</Name>
+                        <Description>Turning 45 Machining 30 Milling 35 Drilling 30</Description>
+                    </Option>
+                    
+                  </Part>
+                  
+            </Product>
+        
+    
+</Database>
